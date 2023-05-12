@@ -38,7 +38,7 @@ public class Controller {
             return String.format("http://localhost:8080/api/a/%s", hash.toString());
         }catch (NoSuchAlgorithmException e){
             e.printStackTrace();
-            return "exepction";
+            return "exception";
         }catch(Exception e) {
             e.printStackTrace();
             return "exception";
